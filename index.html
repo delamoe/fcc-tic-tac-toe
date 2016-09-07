@@ -18,11 +18,12 @@
         <h1 class="modal-title text-center" id="myModalLabel">let's play tic tac toe</h1>
       </div>
       <div class="modal-body text-center">
-        <h1>which would you like to play as?<br/>
+        <h1>
+  which would you like to play as?<br/>
           <button type="button" data-dismiss="modal" class="btn btn-large btn-default" data-value="X"><span class='btnText'>X</span></button>
-		  or
-		  <button type="button" data-dismiss="modal" class="btn btn-large btn-default" data-value="O"><span class='btnText'>0</span></button>
-		  </h1>
+  or
+          <button type="button" data-dismiss="modal" class="btn btn-large btn-default" data-value="O"><span class='btnText'>0</span></button>
+        </h1>
       </div>
     </div>
   </div>
@@ -32,47 +33,40 @@
   <div class='row'>
     <div id='data-top' class='center-block'>
       <div class='col-xs-6 text-center'>
-        <span id='games' class='game'>
-		</span>
+        <span id='games' class='game'></span>
       </div>
       <div class='col-xs-6 text-center'>
-        <span id='turn' class='game'>
-		</span>
+        <span id='turn' class='game'></span>
       </div>
     </div>
-	</div>
+  </div>
+  <div class='row'>
+    <div class='col-xs-12'>
+      <div id='board' class='center-block'>
+        <div id='tl' class='topRow left square'></div>
+        <div id='tc' class='topRow center square'></div>
+        <div id='tr' class='topRow right square'></div>
+        <div id='cl' class='midRow left square'></div>
+        <div id='cc' class='midRow center square'></div>
+        <div id='cr' class='midRow right square'></div>
+        <div id='bl' class='botRow left square'></div>
+        <div id='bc' class='botRow center square'></div>
+        <div id='br' class='botRow right square'></div>
+      </div>
+    </div>
+  </div>
+  <div id='data-bottom' class='center-block'>
     <div class='row'>
-      <div class='col-xs-12'>
-        <div id='board' class='center-block'>
-          <div id='tl' class='topRow left square'></div>
-          <div id='tc' class='topRow center square'></div>
-          <div id='tr' class='topRow right square'></div>
-          <div id='cl' class='midRow left square'></div>
-          <div id='cc' class='midRow center square'></div>
-          <div id='cr' class='midRow right square'></div>
-          <div id='bl' class='botRow left square'></div>
-          <div id='bc' class='botRow center square'></div>
-          <div id='br' class='botRow right square'></div>
-        </div>
-		</div>
-		</div>
-		<div class='row'>
-      <div class='col-xs-12'>
-        <div id='data-bottom' class='center-block'>
-          <div class='row'>
-            <div class='col-xs-4 text-center'>
-              <span id='human' class='score'></span>
-            </div>
-            <div class='col-xs-4 text-center'>
-              <span id='draw' class='score'></span>
-            </div>
-            <div class='col-xs-4 text-center'>
-              <span id='ai' class='score'></span>
-            </div>
-          </div>
-        </div>
+      <div class='col-xs-4 text-center'>
+        <span id='human' class='score'></span>
       </div>
-	  </div>
+      <div class='col-xs-4 text-center'>
+        <span id='draw' class='score'></span>
+      </div>
+      <div class='col-xs-4 text-center'>
+        <span id='ai' class='score'></span>
+      </div>
     </div>
+  </div>
 </body>
 </html>
