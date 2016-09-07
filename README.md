@@ -1,2 +1,2 @@
 # fcc-tic-tac-toe
-Free Code Camp Tic-Tac-Toe Project
+freeCodeCamp Tic-Tac-Toe Project
