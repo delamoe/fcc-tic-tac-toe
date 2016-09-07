@@ -47,6 +47,7 @@ var winsObj = {
 $(document).ready(start());
 
 function start() {
+    alert('started');
   $('#playModal')
     .modal({
       backdrop: 'static',
