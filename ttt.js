@@ -44,7 +44,7 @@ var winsObj = {
     x: [],
     o: []
   };
-$(document).ready(start());
+$(document).load(start());
 
 function start() {
     alert('started');
