@@ -1,0 +1,62 @@
+body {
+font-family: 'Rancho', cursive;
+font-weight: bold;
+margin: auto;
+padding: 5%;
+background-color: #F49D37;
+}
+
+.score,
+.game {
+
+color: #0A1128;
+
+font-size: 28px;
+}
+
+#board {
+width: 450px;
+height: 450px;
+}
+
+#board .square {
+width: 33.333333333%;
+height: 33.333333333%;
+background-color: #496DDB;
+float: left;
+text-align: center;
+line-height: 150px;
+}
+
+.square {
+font-size: 170px;
+color: #2E4052;
+outline: 2px dashed #F49D37;
+outline-offset: 0px;
+}
+
+#tl {
+border-radius: 10% 0 0 0;
+}
+
+#tr {
+border-radius: 0 10% 0 0;
+}
+
+#br {
+border-radius: 0 0 10% 0;
+}
+
+#bl {
+border-radius: 0 0 0 10%;
+}
+
+#data-bottom,
+#data-top {
+width: 450px;
+}
+
+.btnText {
+color: #0A1128;
+font-size: 50px;
+}
