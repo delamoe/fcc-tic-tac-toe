@@ -25,31 +25,47 @@ height: 33.333333333%;
 background-color: #496DDB;
 float: left;
 text-align: center;
-line-height: 150px;
+line-height: 155px;
 }
 
 .square {
 font-size: 170px;
 color: #2E4052;
-outline: 2px dashed #F49D37;
-outline-offset: 0px;
+border: 2px dashed #F49D37;
 }
 
-#tl {
-border-radius: 10% 0 0 0;
+.topRow {
+	border-top: none;
 }
 
-#tr {
-border-radius: 0 10% 0 0;
+.right {
+	border-right: none;
 }
 
-#br {
-border-radius: 0 0 10% 0;
+.botRow {
+	border-bottom: none;
 }
 
-#bl {
-border-radius: 0 0 0 10%;
+.left {
+	border-left: none;
 }
+
+.topRow.right {
+	border-radius: 0 10% 0 0;
+}
+
+.topRow.left {
+	border-radius: 10% 0 0 0;
+}
+
+.botRow.right {
+	border-radius: 0 0 10% 0;
+}
+
+.botRow.left {
+	border-radius: 0 0 0 10%;
+}
+
 
 #data-bottom,
 #data-top {

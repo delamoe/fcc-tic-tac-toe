@@ -1,3 +1,9 @@
+// AI should not select the center
+//  when it will not lead to a win
+//  or at least an attack
+// AI should block at CR when human make
+//  TR, BL or BR??
+
 var winsObj = {
 top: {
   win: ['tl', 'tc', 'tr'],
@@ -132,7 +138,7 @@ if (win) {
 winText = player.toUpperCase() + " WINS!!!<br/>" + winsObj[win].title;
 //console.log(winText);
 winsArr[turn].push('w');
-$('#' + player.toLowerCase()).html(player + " wins: " + winsArr[turn].length);
+$('#' + player.toLowerCase()).html(player + ": " + winsArr[turn].length);
 // draw win graphic
 for (var i in winsObj[win].win) {
   $('#' + winsObj[win].win[i]).css("color", "#A4031F");
