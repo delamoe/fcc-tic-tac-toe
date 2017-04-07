@@ -1,2 +1,3 @@
-# fcc-tic-tac-toe
-freeCodeCamp Tic-Tac-Toe Project
+# freeCodeCamp Tic-Tac-Toe App
+
+## Click [here](https://delamoe.github.io/fcc-tic-tac-toe/) to play.
